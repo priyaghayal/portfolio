@@ -35,7 +35,7 @@ function Header () {
                             <small>A Software Engineer from India</small>
                             <h2>Hi! I'm Priya Ghayal</h2>
                             <p>An avid person who is always curious about the working of technology around her.<br></br>
-                            Technical skills:- JavaScript, TypeScript, ReactJS, Git, Redux, Redux Saga, React Query, React Testing Library.<br></br>
+                            Technical skills:- Python, HTML, CSS, JavaScript, Git, GitHub, SQL.<br></br>
                             Possess good communication skills and flexible to work in any environment as required.</p>
                             <button>Download CV 
                             <a href="https://drive.google.com/file/d/1S7V84ZRl0crfaQxEhdtflNrIbx5i-Ajc/view?usp=sharing" target="_blank">
