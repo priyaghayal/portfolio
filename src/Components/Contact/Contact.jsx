@@ -15,11 +15,11 @@ function Contact() {
                 </div>
                 <div className={contactCSS.contact_detail}>
                     <i className="ri-mail-line"></i>
-                    <p>priyaghayal28@gmail.com</p>
+                    <p><a href="priyaghayal28@gmail.com">Gmail</a></p>
                 </div>
                 <div className={contactCSS.contact_detail}>
                     <i className="ri-github-line"></i>
-                    <p>https://github.com/priyaghayal</p>
+                    <p><a href="https://github.com/priyaghayal" target="_blank">GitHub</a></p>
                 </div>
             </div>
         </div>
