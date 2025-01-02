@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './Components/Header/Header'
-import Nav from './components/Nav/Nav'
+import Nav from './Components/Nav/Nav'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 import Projects from './Components/Projects/Projects'

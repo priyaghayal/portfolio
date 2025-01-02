@@ -1,7 +1,4 @@
-.swiper{
-    width: 100% !important;
-    max-height: 100vh;
-}
+
 
 .header_wrapper{
     position: relative;
@@ -206,9 +203,7 @@
         line-height: 2.8rem;
     }
 
-    .swiper{
-        max-height: none;
-    }
+   
 }
 
 @media screen and (max-width:500px) {

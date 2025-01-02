@@ -1,8 +1,7 @@
 import React from "react";
 import headerCSS from "./../Header/Header.module.css";
 
-import {Swiper, SwiperSlide} from "swiper/react";
-import 'swiper/css'
+
 
 
 import headerimage1 from './../../assets/header-image-01.jpg';
@@ -30,12 +29,7 @@ function Header () {
         
             </div>
             
-            <Swiper 
-                className={headerCSS.swiper}
-                
-                
-            >
-                <SwiperSlide>
+            
                     <div className={headerCSS.Header_slide}>
                         <div className={headerCSS.header_content}>
                             <small>A Software Engineer from India</small>
@@ -63,8 +57,7 @@ function Header () {
                             </div>
                         </div>
                     </div>
-                </SwiperSlide>
-            </Swiper>
+                
         </div>
     )
 }
