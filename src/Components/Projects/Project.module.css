@@ -1,0 +1,88 @@
+:root {
+    --primary-color: rgb(249, 230, 184);
+    --background-color: rgb(11, 7, 3);
+    --text-color: #fff;
+    --secondary-text-color: #aaa;
+    --border-color: rgba(255, 255, 255, 0.2);
+}
+
+.projects_wrapper {
+    padding: 40px 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.projects_wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.projects_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project_card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project_card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.project_card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.project_card .project_link {
+    font-size: 1rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project_card .project_link:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.project_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .projects_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
