@@ -8,7 +8,7 @@ function About() {
                 <div className={aboutCSS.Experience_education}>
                     {/* Experience Section */}
                     <div className={aboutCSS.experience_wrapper}>
-                        <h2>My Experience</h2>
+                        <h2>Experience</h2>
                         <div className={aboutCSS.experience}>
                             <h3><i className="ri-briefcase-line"></i> Working Student – TransnetBW (Stuttgart, Germany)</h3>
                             <small>Mar 2024 – Mar 2025</small>
@@ -41,7 +41,7 @@ function About() {
 
                     {/* Education Section */}
                     <div className={aboutCSS.education_wrapper}>
-                        <h2>My Education</h2>
+                        <h2>Education</h2>
                         <div className={aboutCSS.education}>
                             <h3><i className="ri-graduation-cap-line"></i> Masters in Software Technology - Hochschule für Technik, Stuttgart, Germany</h3>
                             <small>Oct 2023 – Present</small>

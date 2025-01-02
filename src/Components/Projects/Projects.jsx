@@ -5,7 +5,7 @@ function Projects() {
     return (
         <>
             <div className={`${projectsCSS.projects_wrapper} section`} id="projects">
-                <h2>My Projects</h2>
+                <h2>Projects</h2>
                 <div className={projectsCSS.projects_container}>
                     <div className={projectsCSS.project_card}>
                         <h3>Job Referral Mobile App</h3>

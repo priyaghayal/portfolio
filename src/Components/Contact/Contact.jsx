@@ -15,7 +15,7 @@ function Contact() {
                 </div>
                 <div className={contactCSS.contact_detail}>
                     <i className="ri-mail-line"></i>
-                    <p><a href="priyaghayal28@gmail.com">Gmail</a></p>
+                    <p><a href="priyaghayal28@gmail.com" target="_blank">Gmail</a></p>
                 </div>
                 <div className={contactCSS.contact_detail}>
                     <i className="ri-github-line"></i>
