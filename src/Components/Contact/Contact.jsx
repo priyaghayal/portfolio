@@ -18,6 +18,10 @@ function Contact() {
                     <p><a href="priyaghayal28@gmail.com" target="_blank">Gmail</a></p>
                 </div>
                 <div className={contactCSS.contact_detail}>
+                    <i className="ri-phone-line"></i>
+                    <p>+91 9762171427</p>
+                </div>
+                <div className={contactCSS.contact_detail}>
                     <i className="ri-github-line"></i>
                     <p><a href="https://github.com/priyaghayal" target="_blank">GitHub</a></p>
                 </div>
