@@ -38,7 +38,7 @@ function Header () {
                             Technical skills:- Python, HTML, CSS, JavaScript, Git, GitHub, SQL.<br></br>
                             Possess good communication skills and flexible to work in any environment as required.</p>
                             <button>Download CV 
-                            <a href="https://drive.google.com/file/d/1TbW2n1J6tMUXlxO_3m-KRZd5w7JtDkyb/view?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/file/d/1TbW2n1J6tMUXlxO_3m-KRZd5w7JtDkyb/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <i className="ri-arrow-right-up-line"></i>
                             </a></button>
                         </div>
