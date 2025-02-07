@@ -4,8 +4,10 @@ import headerCSS from "./../Header/Header.module.css";
 
 
 
-import headerimage1 from './../../assets/Photo.jpg';
-
+import headerimage1 from './../../assets/header-image-01.jpg';
+import headerimage2 from './../../assets/header-image-02.jpg';
+import headerimage3 from './../../assets/header-image-03.jpg';
+import headerimage4 from './../../assets/header-image-04.jpg';
 
 
 
