@@ -8,7 +8,7 @@ const nextConfig = {
     unoptimized: true,
   },
   // basePath: '/portfolio',
-  distDir: 'out',
+  distDir: 'dist',
   eslint: {
     ignoreDuringBuilds: true,
   },
