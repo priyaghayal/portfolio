@@ -105,7 +105,7 @@ export const NavbarMenu = () => {
               "z-50"
             )}
           >
-            Devika
+            Priya
           </Link>
 
           {/* Desktop Menu */}
